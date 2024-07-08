@@ -92,8 +92,28 @@ header ul li a.login-button {
     flex: 1;
     padding: 20px;
     text-align: center;
+}
+
+.text-end {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+.button-end {
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    color: black;
+    padding: 8px 29px;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-right: 20px;
 
 }
+
 
 .content-row {
     display: flex;
@@ -133,4 +153,14 @@ header ul li a.login-button {
     padding: 50px 20px;
     background-color: #f3f3f3;
     flex-direction: column-reverse;
+}
+
+.footer-content {
+    background-color: #23272a;
+    color: white;
+}
+
+
+.footer-content h2 {
+    margin-bottom: 20px;
 }
