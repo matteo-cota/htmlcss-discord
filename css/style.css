@@ -1,8 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -42,4 +40,97 @@ header ul li a.login-button {
     color: #7289da;
     padding: 5px 10px;
     border-radius: 15px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f3f4f6;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.buttons .btn {
+    background-color: white;
+    color: black;
+    padding: 11px 29px;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-right: 20px;
+}
+
+.buttons .btn-secondary {
+    background-color: #040404;
+    color: #ffffff;
+}
+
+.features {
+    padding: 50px 20px;
+}
+
+#future-text {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.content-row div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.feature-image img {
+    height: auto;
+}
+
+.feature-text h2 {
+    font-size: 2.5em;
+    margin: 33px 173px;
+    text-align: left;
+
+}
+
+.feature-text p {
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+}
+
+
+.large-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+    flex-direction: column-reverse;
 }
