@@ -55,6 +55,10 @@ header ul li a.login-button {
 
 .hero-text {
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .hero-text h1 {
@@ -127,6 +131,35 @@ header ul li a.login-button {
     text-align: center;
 
 }
+
+
+.set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    background-color: lightgrey;
+    padding: 56px;
+    background-color: rgba(30, 32, 44, 0.11);
+}
+
+.set div {
+    background-color: rgba(30, 32, 44, 0.11);
+    width: 50%;
+    height: 110%;
+}
+
+
+
+
+#section {
+    background-color: rgba(30, 32, 44, 0.11);
+    width: 90%;
+
+}
+
+
+
 
 .feature-image img {
     height: auto;
